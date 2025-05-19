@@ -1,0 +1,15 @@
+#img-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    /* gap: 0px; 
+    line-height: 0; */
+}
+
+#img-card img {
+    height: 500px;
+    /* margin: 0; 
+    display: block;
+    padding: 0; */
+}
