@@ -13,3 +13,6 @@
     display: block;
     padding: 0; */
 }
+#card {
+    background: linear-gradient(135deg, rgb(250, 63, 118),rgb(255, 203, 50));
+}

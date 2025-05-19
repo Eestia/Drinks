@@ -1,0 +1,18 @@
+.panier h2{
+    font-family: "Roboto", sans-serif;
+    padding-left: 20px;
+    color: rgb(255, 203, 50);
+    font-size: 30px;
+    
+}
+.gradient-line {
+  border: none;
+  border-top: 4px dotted rgb(255, 203, 50);
+  height: 4px;
+  border-radius: 2px;
+}
+.panier ul li{
+    font-family: "Roboto", sans-serif;
+    padding-left: 20px;
+    color: rgb(255, 203, 50);
+}

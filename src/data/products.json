@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Limonade",
+    "price": 2.45,
+    "stock": 5,
+    "img": "Limonade.png"
+  },
+  {
+    "id": 2,
+    "name": "Jus d'orange",
+    "price": 1.75,
+    "stock": 4,
+    "img": "orange.png"
+  },
+  {
+    "id": 3,
+    "name": "Fanta",
+    "price": 3.0,
+    "stock": 7,
+    "img": "fanta.png"
+  },
+  {
+    "id": 4,
+    "name": "Thé glacé",
+    "price": 1.5,
+    "stock": 6,
+    "img": "the.png"
+  }
+]

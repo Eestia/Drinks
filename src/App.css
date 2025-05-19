@@ -1,0 +1,12 @@
+#carte{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.argent{
+    font-family: "Roboto", sans-serif;
+    padding-left: 20px;
+    color: rgb(255, 203, 50);
+}
