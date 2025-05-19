@@ -1,0 +1,29 @@
+#Up{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#Up h1{
+    color: rgb(255, 203, 50);
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+}
+#Up p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+#Up button{
+    color: rgb(7, 33, 56);
+    font-family: "Roboto", sans-serif;
+    background-color:rgb(255, 203, 50);
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
