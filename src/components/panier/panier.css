@@ -1,18 +1,23 @@
-.panier h2{
+.panier span,p{
     font-family: "Roboto", sans-serif;
     padding-left: 20px;
     color: rgb(255, 203, 50);
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: bolder;
     
 }
-.gradient-line {
-  border: none;
-  border-top: 4px dotted rgb(255, 203, 50);
-  height: 4px;
-  border-radius: 2px;
+#btn-retirer{
+    padding: 6px 12px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-top: 25px;
 }
-.panier ul li{
-    font-family: "Roboto", sans-serif;
-    padding-left: 20px;
-    color: rgb(255, 203, 50);
+#div-pro{
+    display: flex;
+    align-items: center;
 }

@@ -48,7 +48,7 @@ function App() {
       <Nav />
       <Up />
       <Cards />
-      <div className="argent">Argent : {argent} €</div>
+      <div className="argent">Argent : {argent.toFixed(2)} €</div>
 
       <section id="carte">
         {produits.map((product) => (
@@ -62,7 +62,14 @@ function App() {
         ))}
       </section>
 
-      <Panier panier={panier} />
+      <Panier
+        panier={panier}
+        images={images}
+        setPanier={setPanier}
+        setArgent={setArgent}
+        setProduits={setProduits}
+      />
+
     </>
   );
 }
