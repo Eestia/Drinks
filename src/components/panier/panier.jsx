@@ -32,6 +32,9 @@ function Panier({ panier, images, setPanier, setArgent, setProduits }) {
 
   return (
     <div className='panier'>
+        <div id='le-hr'>
+        <hr />
+        </div>
       {productsArray.length === 0 ? (
         <p>Votre panier est vide</p>
       ) : (

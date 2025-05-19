@@ -21,3 +21,13 @@
     display: flex;
     align-items: center;
 }
+hr {
+  border: none;
+  border-top: 4px dotted #ffc932; /* couleur dorée */
+  margin: 20px;
+  width: 1300px;
+}
+#le-hr{
+    display: flex;
+    justify-content: center;
+}
