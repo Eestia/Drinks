@@ -20,7 +20,7 @@ const images = {
 };
 
 function App() {
-  const [argent, setArgent] = useState(100); // Tu démarres avec 10€
+  const [argent, setArgent] = useState(100);
   const [panier, setPanier] = useState([]);
   const [produits, setProduits] = useState(productsData);
 

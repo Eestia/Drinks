@@ -13,10 +13,10 @@ function Panier({ panier, images, setPanier, setArgent, setProduits }) {
   const productsArray = Object.values(groupedProducts);
 
   const retirerProduit = (product) => {
-    // 1. Rembourser l'utilisateur
+    // Rembourser 
     setArgent(prev => +(prev + product.price).toFixed(2));
 
-    // 2. Retirer une instance du produit dans le panier
+    // Retirer produit du panier
     const index = panier.findIndex(p => p.id === product.id);
     if (index !== -1) {
       const newPanier = [...panier];
@@ -24,7 +24,7 @@ function Panier({ panier, images, setPanier, setArgent, setProduits }) {
       setPanier(newPanier);
     }
 
-    // 3. Rétablir le stock
+    // Rétablir le stock
     setProduits(prev =>
       prev.map(p => p.id === product.id ? { ...p, stock: p.stock + 1 } : p)
     );

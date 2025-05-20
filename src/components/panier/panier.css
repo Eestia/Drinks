@@ -23,7 +23,7 @@
 }
 hr {
   border: none;
-  border-top: 4px dotted #ffc932; /* couleur dorée */
+  border-top: 4px dotted #ffc932; 
   margin: 20px;
   width: 1300px;
 }
